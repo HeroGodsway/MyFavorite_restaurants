@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+
+  <body>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome the Desert Diner</h1>
+        <p>Discover the finest flavors in Phoenix, Arizona</p>
+        <a href="./mykitchen.html">View Menu</a>
+      </div>
+    </section>
+
+    <section class="restaurant-section">
+      <div class="restaurant">
+        <img
+          class="restaurant-image"
+          src="./assets/1403878685365.jpeg"
+          alt="Restaurant 1"
+        />
+        <div class="restaurant-info">
+          <h3>Ruth's Chris Steak House</h3>
+          <p>
+            The taste of a real grill, born in New Orlens refined in Scottsdale
+            to suit your warfare with hunger.
+          </p>
+        </div>
+      </div>
+      <div class="restaurant">
+        <img
+          class="restaurant-image"
+          src="./assets/grills.jpeg"
+          alt="Restaurant 2"
+        />
+        <div class="restaurant-info">
+          <h3>The Gladly</h3>
+          <p>
+            There is a craving in your taste buds that no food has ever truly
+            satiesfied. Trust me, you want to find out here.
+          </p>
+        </div>
+      </div>
+      <div class="restaurant">
+        <img
+          class="restaurant-image"
+          src="./assets/family.jpeg"
+          alt="Restaurant 3"
+        />
+        <div class="restaurant-info">
+          <h3>Restaurant Progress</h3>
+          <p>
+            If you're not sure where your life is going, this is the place to
+            come and taste the true meaning of progress.
+          </p>
+        </div>
+      </div>
+      <div class="restaurant">
+        <img
+          class="restaurant-image"
+          src="./assets/old friend reunion.jpeg"
+          alt="Restaurant 4"
+        />
+        <div class="restaurant-info">
+          <h3>Blinkley's Restaurant</h3>
+          <p>
+            Apparently, chef Kevin is the best in the universe. Why go to Mars
+            when chef Kevin is in Phoenix?
+          </p>
+        </div>
+      </div>
+      <div class="restaurant">
+        <img
+          class="restaurant-image"
+          src="./assets/couple.jpeg"
+          alt="Restaurant 5"
+        />
+        <div class="restaurant-info">
+          <h3>Beckett's Table</h3>
+          <p>
+            If music has a taste, the Beckett's are the Taylor Swift in your
+            playlist. This taste is flawless, you'd be enchanted to try it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Explore My kitchen-->
+    <section class="my-kitchen">
+      <div class="advert">
+        <img
+          class="jollof-image"
+          src="./assets/jollof.jpeg"
+          alt="Home Cooked Jollof Meal"
+        />
+        <img
+          class="jollof-image"
+          src="./assets/fufu.jpeg"
+          alt="Home Cooked Ghana Fufu"
+        />
+      </div>
+
+      <div class="mykitchen-info">
+        <h2>Taste Africa</h2>
+        <p>
+          Indulge in the comfort of a homemade African taste from the land of
+          gold.
+        </p>
+        <button class="Order-Jollof">
+          <a href="./mykitchen.html">Explore My Kitchen</a>
+        </button>
+      </div>
+    </section>
+
+    <section class="Form-Area">
+      <h2>Fill the form below to place an order or make a reservation</h2>
+      <div class="Reservation">
+        <form>
+          <fieldset class="Group1">
+            <label for="Reservation">
+              <h2>What type of reservation would you like to make?</h2>
+              <br />
+              <select>
+                <option>Delivery</option>
+                <option>Pick-up</option>
+                <option>Researve a Table</option>
+                <option>Large Party Order</option>
+              </select>
+            </label>
+          </fieldset>
+
+          <fieldset class="Group2">
+            <h2>What type of cuisine would you like to have?</h2>
+            <br />
+            <label for="Mexican"> Mexican</label>
+            <input type="checkbox" id="Mexican" for="cusine" />
+
+            <label for="Italian"> Italian</label>
+            <input type="checkbox" id="Italian" for="cusine" />
+
+            <label for="African"> African</label>
+            <input type="checkbox" checked id="African" for="cusine" />
+
+            <table>
+              <h2>Provide personal details for this order</h2>
+              <tr>
+                <td>First Name <input type="text" placeholder="John" /></td>
+                <br />
+                <td>Last Name <input type="text" placeholder="John" /></td>
+                <br />
+                <td>Mobile <input type="number" placeholder="0123456789" /></td>
+                <br />
+              </tr>
+              <tr>
+                Address
+                <input type="text" required placeholder="525 S Forest Ave" />
+              </tr>
+              <br />
+              <p>
+                Delivery Notes
+                <input type="text" placeholder="Leave comments here" /> <br />
+              </p>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Your Restaurant. All rights reserved.</p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

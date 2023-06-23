@@ -1,0 +1,214 @@
+.hero-section {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/5oFlKhcp5q1tq4DbawKaAUa1iTI=/0x0:1128x909/1120x840/filters:focal(474x365:654x545):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/71357898/011_DPOV_1128x909.0.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    }
+
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: 5px;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 2em;
+  }
+
+  .hero-section a {
+    background-color: #efe6d3;
+    color: #333333;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .hero-section a:hover {
+    background-color: #d79716;
+ }
+
+ /* CSS styles for the restaurant section */
+    .restaurant-section {
+      background-color: #f7f7f7;
+      padding: 2rem;
+      display: flex;
+    }
+
+    .restaurant-section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      justify-content: space-around;
+    }
+
+    .restaurant {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .restaurant-image {
+      width: 200px;
+      height: 150px;
+      margin-right: 1rem;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .restaurant-info {
+      flex: 1;
+    }
+
+    .restaurant-info h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .restaurant-info p {
+      font-size: 0.9rem;
+    }
+
+    /* CSS styles for the restaurant section */
+    .restaurant-section {
+      background-color: #f7f7f7;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-around;
+      background-color: #FFD6E5;
+    padding-top: 5%;  
+    }
+
+    .restaurant {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      margin-bottom: 2rem;
+      max-width: 70vw;
+      padding: 2px;
+    }
+
+    .restaurant-image {
+      width: 260px;
+      height: 210px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: .5rem;
+    }
+
+    .restaurant-info {
+      text-align: left;
+      padding: 8px;
+      justify-content: space-around;
+    }
+
+    .my-kitchen{
+      background-image: url("https://i.ytimg.com/vi/pD_r8P83ciw/maxresdefault.jpg");
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      margin-bottom: 7%;
+    }  
+
+    .my-kitchen img{
+      width: 25vw;
+      height: 40vh;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    .mykitchen-info{
+    padding: 50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #FFD6E5;
+    height: 28.5vh;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .mykitchen-info h2{
+      font-size: 32px;
+      font-weight: 500;
+      color: #e19e0e;
+    }
+
+    .mykitchen-info button{
+      background-color: #e2a729;
+      color: #333333;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 25px;
+    }
+  
+    .mykitchen-info button:hover {
+      background-color: #d79716;
+   }
+
+   footer {
+    background-color: #c87f12;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .Group2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  table{
+    align-items: center;
+    text-align: center;
+  }
+
+  fieldset{
+    align-items: center;
+    justify-content: center;
+  }
